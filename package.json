@@ -1,0 +1,32 @@
+{
+  "name": "lab-03",
+  "version": "1.0.0",
+  "description": "### Classes, Inheritance, Functional Programming",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "faker": "^4.1.0",
+    "fs": "0.0.1-security",
+    "jest": "^24.8.0"
+  },
+  "scripts": {    
+    "start": "node index.js",
+    "test": "jest --verbose --coverage",
+    "lint": "eslint **/*.js/",
+    "test-watch": "jest --watchAll --coverage --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriana-401-advanced-javascript/lab-03.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adriana-401-advanced-javascript/lab-03/issues"
+  },
+  "homepage": "https://github.com/adriana-401-advanced-javascript/lab-03#readme"
+}
